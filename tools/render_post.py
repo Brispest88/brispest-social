@@ -4,6 +4,7 @@ from playwright.sync_api import sync_playwright
 # usage: python3 render_post.py post.json out.png
 d = json.load(open(sys.argv[1]))
 e = lambda s: html.escape(s)
+LOGO = "https://raw.githubusercontent.com/Brispest88/brispest-social/main/assets/logo.png"
 points = "".join(f'<li><span class="tick">&#10003;</span>{e(p)}</li>' for p in d["points"])
 page = f"""<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&display=swap" rel="stylesheet">
@@ -24,7 +25,7 @@ li{{font-size:32px;color:#1B2A44;line-height:1.3;margin:0 0 22px;display:flex;ga
 .cta{{margin:0 80px 36px;background:#E3262E;color:#fff;border-radius:22px;padding:24px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px}}
 .cta b{{font-size:30px;font-weight:800;line-height:1.2}} .cta span{{font-size:48px;font-weight:900;white-space:nowrap}}
 .foot{{background:#fff;padding:30px 80px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #E3E8F0}}
-.logo{{font-size:54px;font-weight:900;letter-spacing:-1px}} .logo .b{{color:#2B5BA8}} .logo .p{{color:#E3262E}}
+.logo{{height:80px;width:auto;display:block}}
 .url{{text-align:right;color:#0F2341}} .url b{{font-size:32px;display:block}} .url small{{font-size:20px;letter-spacing:3px;color:#5A6780;font-weight:700}}
 </style></head><body>
 <div class="top"><span class="badge">{e(d["badge"])}</span>
@@ -32,7 +33,7 @@ li{{font-size:32px;color:#1B2A44;line-height:1.3;margin:0 0 22px;display:flex;ga
 <p class="sub">{e(d["sub"])}</p></div>
 <div class="mid"><div class="card"><h2>{e(d["points_title"])}</h2><ul>{points}</ul></div></div>
 <div class="cta"><b>{e(d.get("cta","Call or text BrisPest"))}</b><span>0468 056 437</span></div>
-<div class="foot"><div class="logo"><span class="b">Bris</span><span class="p">Pest</span></div>
+<div class="foot"><img class="logo" src="{LOGO}" alt="BrisPest">
 <div class="url"><b>brispest.com.au</b><small>COMMERCIAL · RESIDENTIAL · BRISBANE CBD</small></div></div>
 </body></html>"""
 with sync_playwright() as p:
