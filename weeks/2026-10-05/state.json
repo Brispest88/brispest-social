@@ -1,0 +1,31 @@
+{
+ "week": "2026-10-05",
+ "draft_sent_utc": "2026-10-03T21:58:23Z",
+ "days": {
+  "MON": {
+   "post_local": "2026-10-05T07:00+10:00",
+   "deadline_local": "2026-10-04T20:00+10:00",
+   "status": "pending",
+   "choice": null,
+   "fb_post_id": null
+  },
+  "WED": {
+   "post_local": "2026-10-07T07:00+10:00",
+   "deadline_local": "2026-10-06T20:00+10:00",
+   "status": "pending",
+   "choice": null,
+   "fb_post_id": null
+  },
+  "FRI": {
+   "post_local": "2026-10-09T07:00+10:00",
+   "deadline_local": "2026-10-08T20:00+10:00",
+   "status": "pending",
+   "choice": null,
+   "fb_post_id": null
+  }
+ },
+ "processed_message_ids": [],
+ "log": [
+  "2026-10-03T21:58:23Z DRAFT: 15 options (M1-M5, W1-W5, F1-F5) rendered, uploaded and emailed to George. Nothing posted or scheduled."
+ ]
+}
