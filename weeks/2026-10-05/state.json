@@ -5,27 +5,30 @@
   "MON": {
    "post_local": "2026-10-05T07:00+10:00",
    "deadline_local": "2026-10-04T20:00+10:00",
-   "status": "pending",
-   "choice": null,
-   "fb_post_id": null
+   "status": "scheduled",
+   "choice": "M5",
+   "fb_post_id": "569342092936899_122190885020828006"
   },
   "WED": {
    "post_local": "2026-10-07T07:00+10:00",
    "deadline_local": "2026-10-06T20:00+10:00",
-   "status": "pending",
-   "choice": null,
-   "fb_post_id": null
+   "status": "scheduled",
+   "choice": "W4",
+   "fb_post_id": "569342092936899_122190885062828006"
   },
   "FRI": {
    "post_local": "2026-10-09T07:00+10:00",
    "deadline_local": "2026-10-08T20:00+10:00",
-   "status": "pending",
-   "choice": null,
-   "fb_post_id": null
+   "status": "scheduled",
+   "choice": "F5",
+   "fb_post_id": "569342092936899_122190885110828006"
   }
  },
- "processed_message_ids": [],
+ "processed_message_ids": [
+  "AAMkADMzMmE3MzI0LTI1OTAtNGYzNy1iOGZlLTJhOTA5MGIwNmQyYwBGAAAAAADPQAswyag4T58Br5fVaHxFBwCyqTXu42YXSb90BLDPfNZZAAAAAAEMAACyqTXu42YXSb90BLDPfNZZAAFxVcDJAAA="
+ ],
  "log": [
-  "2026-10-03T21:58:23Z DRAFT: 15 options (M1-M5, W1-W5, F1-F5) rendered, uploaded and emailed to George. Nothing posted or scheduled."
+  "2026-10-03T21:58:23Z DRAFT: 15 options (M1-M5, W1-W5, F1-F5) rendered, uploaded and emailed to George. Nothing posted or scheduled.",
+  "2026-10-04T10:08:00Z CHECK (8:05pm): George's reply (sent 2026-10-04T07:29Z, 5:29pm Brisbane, before all deadlines) 'Monday m5, wednesday w4, friday f5'. Scheduled M5 Mon 5 Oct 7am, W4 Wed 7 Oct 7am, F5 Fri 9 Oct 7am (published=false, verified in FB scheduled list)."
  ]
 }
