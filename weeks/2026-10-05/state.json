@@ -30,6 +30,7 @@
  "log": [
   "2026-10-03T21:58:23Z DRAFT: 15 options (M1-M5, W1-W5, F1-F5) rendered, uploaded and emailed to George. Nothing posted or scheduled.",
   "2026-10-04T10:08:00Z CHECK (8:05pm): George's reply (sent 2026-10-04T07:29Z, 5:29pm Brisbane, before all deadlines) 'Monday m5, wednesday w4, friday f5'. Scheduled M5 Mon 5 Oct 7am, W4 Wed 7 Oct 7am, F5 Fri 9 Oct 7am (published=false, verified in FB scheduled list).",
-  "2026-10-05T02:06:00Z CHECK (12:05pm): MON M5 post time (7am 5 Oct) passed -> marked posted. No new replies from George. WED W4 and FRI F5 remain scheduled. No email sent."
+  "2026-10-05T02:06:00Z CHECK (12:05pm): MON M5 post time (7am 5 Oct) passed -> marked posted. No new replies from George. WED W4 and FRI F5 remain scheduled. No email sent.",
+  "2026-10-05T10:08:00Z CHECK (8:05pm): No new replies from George. No deadline passed with pending status (WED deadline 8pm Tue 6 Oct already scheduled W4; FRI F5 scheduled). No changes, no email sent."
  ]
 }
