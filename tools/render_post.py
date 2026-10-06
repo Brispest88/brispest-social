@@ -32,7 +32,7 @@ li{{font-size:32px;color:#1B2A44;line-height:1.3;margin:0 0 22px;display:flex;ga
 <h1>{e(d["headline"])} <span class="red">{e(d["headline_red"])}</span></h1>
 <p class="sub">{e(d["sub"])}</p></div>
 <div class="mid"><div class="card"><h2>{e(d["points_title"])}</h2><ul>{points}</ul></div></div>
-<div class="cta"><b>{e(d.get("cta","Call or text BrisPest"))}</b><span>0468 056 437</span></div>
+<div class="cta"><b>{e(d.get("cta","Call or text BrisPest"))}</b><span>0485 038 314</span></div>
 <div class="foot"><img class="logo" src="{LOGO}" alt="BrisPest">
 <div class="url"><b>brispest.com.au</b><small>COMMERCIAL · RESIDENTIAL · BRISBANE CBD</small></div></div>
 </body></html>"""
