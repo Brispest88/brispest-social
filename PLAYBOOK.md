@@ -21,8 +21,8 @@ Brisbane time = UTC+10 all year (no daylight saving).
 
 ## Business facts (use exactly)
 - BrisPest, brispest.com.au. Brisbane CBD and surrounds. Mostly residential, growing commercial (CBD buildings, restaurants, cafés, offices, strata, property managers).
-- Public phone **0468 056 437**. NEVER use 0439 006 325.
-- "15+ years" experience. Fully insured, HACCP-compliant paperwork, Blue Card and White Card.
+- Public phone **0485 038 314** (GoHighLevel number) ONLY. NEVER use 0468 056 437 (dead number, goes nowhere) or 0439 006 325 (personal).
+- "combined 17+ years" experience (say "my team", never mention family). Fully insured, HACCP-compliant paperwork, Blue Card and White Card.
 - Services: termite inspections and management, general pest, rodents, common areas, units, apartments, townhouses, homes, restaurants, commercial. Don't promote birds, snakes or possums.
 - Warranties if mentioned: 12 months internal (spiders, cockroaches, silverfish), 6 months external (spiders, cockroaches, not German cockroaches), 3 months ants.
 - Tone: friendly but professional Aussie, Australian spelling, short.
@@ -53,7 +53,7 @@ Status values: `pending`, `more_requested`, `scheduled`, `declined`, `skipped`, 
    - Jun–Aug: rodents peak in roofs/ceilings/CBD buildings, pre-spring termite inspections, silverfish, pre-summer bookings.
 4. Make 5 distinct options per day (15 total). Across each day's 5, mix: at least 2 CBD commercial (restaurants, cafés, offices, strata, property managers), at least 2 home/unit (inner suburbs like New Farm, Fortitude Valley, Paddington, West End, Kangaroo Point, Spring Hill), and different formats (Signs to watch for, Pest ID, Do/Don't, 3 quick tips, Why now, Checklist). Don't repeat topics posted in the last 4 weeks (check earlier `weeks/*/state.json` choices).
    Text limits: sub ≤ 120 chars, each point ≤ 60 chars, cta ≤ 30 chars, headline + headline_red short (2–5 words each).
-   Caption: 2–4 short lines, then "Message us or call 0468 056 437", then 3–5 hashtags (#BrisbanePestControl #BrisbaneCBD + topical).
+   Caption: 2–4 short lines, then "Message us or call 0485 038 314", then 3–5 hashtags (#BrisbanePestControl #BrisbaneCBD + topical).
 5. Render all 15 PNGs and upload to `weeks/<tag>/<code>.png`. Open a few to check they look right (no cut-off text).
 6. Upload `plan.json` and `state.json`.
 7. Email George. Subject: `BrisPest posts: week of Mon <d Mon> – pick your posts [<tag>]`. HTML body:
